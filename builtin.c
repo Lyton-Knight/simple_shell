@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
  * _myexit - exits the shell
  * @info: Structure containing potential arguments. Used to maintain
@@ -22,6 +21,7 @@ int _myexit(info_t *info)
 			_eputchar('\n');
 			return (1);
 		}
+
 		info->err_num = _erratoi(info->argv[1]);
 		return (-2);
 	}

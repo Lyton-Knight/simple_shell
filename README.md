@@ -1,1 +1,1 @@
-Project file descriptions will be documented here
+group project files will be documented here
